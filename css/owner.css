@@ -1,0 +1,19 @@
+/* RaiseWise — business-owner (SME) top-nav layout used by the readiness assessment. */
+.owner-header { position: sticky; top: 0; z-index: 40; background: var(--navy-800); }
+.owner-bar { max-width: 960px; margin: 0 auto; height: 64px; padding: 0 16px; display: flex; align-items: center; gap: 24px; }
+.owner-bar { max-width: 1100px; }
+.owner-header .brand { color: #fff; white-space: nowrap; }
+.owner-header .brand small { color: #8DA0BA; }
+.owner-nav { margin-left: auto; display: flex; gap: 22px; overflow-x: auto; scrollbar-width: none; }
+.owner-nav::-webkit-scrollbar { display: none; }
+.owner-nav a { color: #E2E8F0; font-size: 14px; font-weight: 500; white-space: nowrap; text-decoration: none; }
+.owner-nav a:hover { color: #fff; }
+.owner-out { border: 0; border-radius: 8px; background: #2B6CB0; color: #fff; font: inherit; font-size: 14px; font-weight: 600; padding: 7px 14px; cursor: pointer; white-space: nowrap; }
+.owner-out:hover { background: #245a96; }
+.owner-main { background: var(--bg); min-height: calc(100vh - 64px); padding: 36px 16px 80px; }
+.owner-main .assess-wrap { max-width: 640px; margin: 0 auto; }
+@media (max-width: 640px) {
+  .owner-bar { gap: 14px; }
+  .owner-nav { gap: 14px; }
+  .owner-main { padding-top: 24px; }
+}
