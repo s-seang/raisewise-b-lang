@@ -1,0 +1,11 @@
+{
+  "name": "raisewise",
+  "version": "0.1.0",
+  "private": true,
+  "description": "RaiseWise prototype — static site, no build step.",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo \"No build step needed\""
+  },
+  "engines": { "node": ">=18" }
+}

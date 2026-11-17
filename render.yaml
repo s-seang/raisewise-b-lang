@@ -1,0 +1,7 @@
+# Deploy as a free Render Static Site (no build step; the app uses #hash routing).
+services:
+  - type: web
+    name: raisewise
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
